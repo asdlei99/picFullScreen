@@ -1,3 +1,4 @@
+ ```
  <script type="text/javascript">
         function hasClass(obj, cls) {
             return obj.className.match(new RegExp('(\\s|^)' + cls + '(\\s|$)'));
@@ -89,25 +90,26 @@
             display: none !important;
         }
     </style>
-
+```
 
 # picFullScreen
 给页面所有的图片加上全屏预览功能
 
 ## 食用方法
+* 在页面的head部分加入上述代码
 * 只需要改变js中的*post-body*  var imgs = document.getElementsByClassName('post-body')[0].getElementsByTagName('img')
 * 对不需要展示的图片加上 class_no_full_screen 类
+* 如果要修改背景色请修改*background: rgba(255, 255, 255,0.8);*这一句
 
-## 详情页面
+## 全屏展示页面
 [详情页面](https://spygg.github.io/2019/04/21/%E7%BB%99%E9%A1%B5%E9%9D%A2%E6%89%80%E6%9C%89%E7%9A%84%E5%9B%BE%E7%89%87%E5%8A%A0%E4%B8%8A%E5%85%A8%E5%B1%8F%E9%A2%84%E8%A7%88%E5%8A%9F%E8%83%BD/)
 
 
-## 全屏展示页面
-<img src="https://spygg.github.io/photos/%E7%BB%99%E9%A1%B5%E9%9D%A2%E6%89%80%E6%9C%89%E7%9A%84%E5%9B%BE%E7%89%87%E5%8A%A0%E4%B8%8A%E5%85%A8%E5%B1%8F%E9%A2%84%E8%A7%88%E5%8A%9F%E8%83%BD/demo.png" alt="demo">
+## 非全屏参见
+[非全屏](https://spygg.github.io/about/)
 
 
-## 非全屏
-<img class="class_no_full_screen" style="width: 200px;display: block; padding-top: 3px; margin: 0 auto;" src="https://spygg.github.io/img/weixincode.jpg">
-
+## ps
+我是javasciript的菜鸟,只会这种简单粗暴的方法
 
 
